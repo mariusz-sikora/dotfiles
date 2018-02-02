@@ -1,0 +1,25 @@
+syntax enable
+set tabstop=4
+set expandtab
+set number
+filetype indent on
+set autoindent
+
+set nocompatible
+filetype off
+set rpc+=~/.vim/bundle/Vundle.vim
+call vundle#begin()
+Plugin 'VundleVim/Vundle.vim'
+
+Plugin 'bling/vim-airline'
+Plugin 'flazz/vim-colorschemes'
+Plugin 'tpope/vim-fugitive'
+Plugin 'scrooloose/nerdtree'
+
+call vundle#end()
+filetype plugin indent on
+
+let g:airline#extensions#tabline#enabled=1
+
+colorscheme jellybeans
+"colorscheme github
