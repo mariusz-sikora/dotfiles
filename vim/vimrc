@@ -28,9 +28,9 @@ filetype plugin indent on
 " vim-airline
 let g:airline#extensions#tabline#enabled=1
 
-" vim-colorschemes
+"vim-colorschemes
 "colorscheme jellybeans
-colorscheme github
+"colorscheme github
 
 
 " vim-cpp-enhanced-highlight
