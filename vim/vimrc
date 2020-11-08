@@ -6,6 +6,7 @@ set expandtab
 set number
 filetype indent on
 set autoindent
+set smartindent
 
 set nocompatible
 filetype off
@@ -21,6 +22,8 @@ Plugin 'octol/vim-cpp-enhanced-highlight'
 "Plugin 'DirDiff.vim'
 Plugin 'majutsushi/tagbar'
 Plugin 'craigemery/vim-autotag'
+Plugin 'stanangeloff/php.vim'
+Plugin 'pangloss/vim-javascript'
 
 call vundle#end()
 filetype plugin indent on
@@ -44,5 +47,8 @@ let g:cpp_concepts_highlight = 1
 let g:autotagTagsFile=".tags"
 
 set tags=.tags
+" nerdtree
+let g:NERDTreeDirArrows=0
+set encoding=utf-8
 
 set backspace=indent,eol,start
